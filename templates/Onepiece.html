@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block head %} AnimeProjet - OnePiece {% endblock %}
+
+{% block subtitle %} Arittake no yume wo kakiatsume<br>Sagashimono wo sagashi ni yuku no sa ONE PIECE ! {% endblock %}
+
+{% block title %} <img style="max-width: 40%; max-height: auto;" src="/static/IMAGES/onepiece logo.png"> {% endblock %}
+
+{% block background %} <div class="header background_3" style="background-image: url(/static/IMAGES/onepiece_background.jpg);"> {% endblock %}
+
+{% block content %}
+    
+    {% for ANIME in posts %}
+    <div class="titre-BDD"><a href="#">
+            <h2>{{ ANIME['titre'] }}</h2>
+        </a></div>
+    <div class="BDD">
+        <p class="legende-BDD">AUTEUR :</p><span><a href="/auteur#1" class="nav-link">{{ANIME['auteur']}}</a></span>
+        <hr class="header-whiteline">
+        <p class="legende-BDD">ANNEE DE SORTIE :</p><span>{{ ANIME['ann_publi'] }}</span>
+        <hr class="header-whiteline">
+        <p class="legende-BDD">STUDIO D'ANIMATION :</p><span>{{ ANIME['stud_anim'] }}</span>
+        <hr class="header-whiteline">
+        <p class="legende-BDD">SYNOPSIS :</p><span >{{ ANIME['synopsis'] }}</span>
+        {% for GENRES in posts3 %}
+        <hr class="header-whiteline">
+        <p class="legende-BDD">GENRE :</p><span >{{ GENRES['description'] }}</span>
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+    <div style="text-align: center; padding:40px;"><img src="/static/IMAGES/torsade.png" style="max-width: 30%; max-height: auto;"></div>
+    
+    {% for PERSONNAGE in posts2 %}
+        <p style="text-align: center;"><u>PERSONNAGE PRINCIPALE :</u></p>
+        <div class="titre-BDD"><a href="#" >
+            <h2>{{ PERSONNAGE['nom'] }}{{ PERSONNAGE['prenom'] }}</h2>
+        </a></div>
+    <div class="BDD">
+        <p class="legende-BDD">DATE DE NAISSANCE :</p><span>{{ PERSONNAGE['date_naissance']}}</span>
+        <hr class="header-whiteline">
+        <p class="legende-BDD">BIOGRAPHIE :</p><span>{{ PERSONNAGE['biographie'] }}</span>
+        <hr class="header-whiteline">
+        <p class="legende-BDD">APERÇU DANS L'ANIME </p><span><a href="#" class="nav-link">{{ PERSONNAGE['anime'] }}</a></span>
+    </div>
+    {% endfor %}
+
+{% endblock %}
+
