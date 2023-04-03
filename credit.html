@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="/static/IMAGES/favicon.ico" type="image/icon">
+    <title>AnimeProjet - crédit</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
+    
+    <!-- page navbar -->
+    <nav class="page-navbar" data-spy="affix" data-offset-top="10">
+        <ul class="nav-navbar container">
+            <li class="nav-item"><a href="/acceuil" class="nav-link">Acceuil</a></li>
+            <li class="nav-item"><a href="/explorer" class="nav-link">Explorer</a></li>
+            <li class="nav-item"><img src="/static/IMAGES/logo_anime.png" alt="logo du site"><span class="Anime">Anime</span><span>Projet</span></li>
+            <li class="nav-item"><a href="/creer" class="nav-link">créer</a></li>
+            <li class="nav-item search">
+                <a href="#" class="nav-link search-toggle">Recherche</a>
+                <div class="search-wrapper">
+                    <form>
+                        <input type="search" placeholder="Rechercher...">
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- header -->
+    <header class="header">
+        <div class="header background">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1 class="header-title">Credit</h1>
+            <div class="header-whiteline"><hr></div>
+            <p class="header-subtitle">Un projet ne se fait pas sans l'aide d'autrui, nous nous devons de les remercier...</p>
+        </div>
+        </div>  
+    </header>
+    <body>
+        <div class="container container-credit">
+            <p><u>Ce projet a été produit à l'aide de:</u></p>
+            <ul class="credit-url">
+                
+                <li><u>Pour l'utilisation de Flask :</u><a href="https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-fr#etape-3-utilisation-des-modeles-html">
+                    https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-fr#etape-3-utilisation-des-modeles-html</a>
+                </li>
+                <li><u>La documentation officiel du module Flask :</u><a href="https://flask.palletsprojects.com/en/2.2.x/quickstart/#html-escaping">
+                    https://flask.palletsprojects.com/en/2.2.x/quickstart/#html-escaping</a>
+                </li>
+                <li><u>Pour la base de donnée SQlite sur Python :</u><a href="https://pixees.fr/informatiquelycee/n_site/nsi_term_projet_1.html">
+                    https://pixees.fr/informatiquelycee/n_site/nsi_term_projet_1.html</a>
+                </li>
+                <li><u>Un autre site pour utiliser Flask :</u><a href="https://projetsdiy.fr/python-flask-bootstrap-interface-html-projet-sans-effort/">
+                    https://projetsdiy.fr/python-flask-bootstrap-interface-html-projet-sans-effort/</a>
+                </li>
+            </ul>
+            <p ><img id="saitama" src="/static/IMAGES/lecture.png"></p>
+            <p>Sans oublier les nombreux forums et vidéo Youtube !</p>
+        </div>
+    </body>
+	 <!-- pre footer -->
+	 <div class="prefooter">
+        <div class="overlay"></div>
+			<h6 class="prefooter-up">Merci d'avoir regardé</h6>	
+			<span>
+				<figure class="prefooter-wankul">
+					<img src="/static/IMAGES/Lenny.png" alt="Lenny Wankul"/>
+					<figcaption>Lenny</figcaption>
+				</figure>
+				<figure class="prefooter-wankul">
+					<img src="/static/IMAGES/Mathys.png" alt="Mathys Wankul"/>
+					<figcaption>Mathys</figcaption>
+				</figure>
+			</span>
+            <!-- footer -->
+            <footer class="footer">
+                <p class="infos">&copy; <script>document.write(new Date().getFullYear())</script>, Made with <a href="https://vicat.mon-ent-occitanie.fr/">Lycée LOUIS VICAT</a> by Lenny AND Mathys</a></p>       
+                <span>|</span>
+                <p class="infos-credit"><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">VIDEO RIGOLOTE</a></p>
+				<span>|</span>
+				<p class="citation"><I>“ La passion et les rêves sont comme le temps, rien ne peut les arrêter, et il en sera ainsi tant qu'il aura des hommes prêts à donner un sens au mot LIBERTE ”</I>
+				<br><strong>― Gold D.Roger</strong></p></div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="../static/jquery.js"></script>
+    <script src="../static/bootstrap.bundle.js"></script>
+    <script src="../static/bootstrap.affix.js"></script>
+    <script src="../static/script.js"></script>
+
+</html>
