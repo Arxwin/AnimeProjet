@@ -1,5 +1,5 @@
 						 -----------------------------------------------------
-						  Bienvenue sur le projet de NSI de Lenny et Mathys !
+						  	    Bienvenue sur le projet de NSI !
 						 -----------------------------------------------------
 
 -- DOCUMENT D'INFORMATION ET DE DéMARRAGE DU SITE INTERNET--
@@ -7,7 +7,7 @@
 Suivez les instructions suivantes ETAPE par ETAPE:
 
 	1. La base de données est déjà initialisé lors de la remise du projet. Ne JAMAIS éxécuter le fichier "BDD.py"
-		si la base de données se trouve supprimée ou corrompue. (risque de grosse erreur)
+		si la base de données se trouve supprimée ou corrompue. (risque de grosses erreurs)
 
 	2. Ouvrir le fichier "root.py" puis l'éxécuter. Il permet d'initialiser toute les pages HTML du site.
 	
@@ -19,7 +19,7 @@ Suivez les instructions suivantes ETAPE par ETAPE:
 
 
 							-------------------------------------------
-								MERCI D'AVOIR SUIVI CE PROJET !
+							      MERCI D'AVOIR SUIVI CE PROJET !
 							-------------------------------------------		
 	
 	
