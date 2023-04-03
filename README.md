@@ -7,7 +7,7 @@ Voici maintenant un site internet fait cette année en projet de NSI. Celui-ci a
   - suiver les instructions données dans le fichier 'READme.txt' dans le dossier AnimeProjet
 
 > Si vous ne voulez voir que le site en lui-même:
-  - Cliquer sur le lien suivant ou copier le sur votre moteur de recherche préféré: 
+  - Cliquer sur le lien suivant ou copier le sur votre moteur de recherche préféré: https://arxwin.github.io/AnimeProjet/
   - profiter de mon site sans avoir la BDD !
 
 
