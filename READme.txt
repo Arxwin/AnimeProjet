@@ -13,7 +13,7 @@ Suivez les instructions suivantes ETAPE par ETAPE:
 	
 	3. Lancer le programme "run.cmd", cela permet d'ouvrir le serveur local qui héberge le site web.
 
-	4. Sur votre navigateur préféré, taper l'adresse local fournie par la fenêtre cmd (cf. image1.png dans le dossier READme)
+	4. Sur votre navigateur préféré, taper l'adresse local fournie par la fenêtre cmd (cf. image1.png)
 
 	5. Vous pouvez maintenant profiter de l'expérience ANIMEPROJET !
 
